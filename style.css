@@ -3,7 +3,7 @@
     grid-template-areas:
     'hd' 
     'nv nv'
-    'md'
+    'sc'
     'ft'
 
     
@@ -12,5 +12,27 @@
 
 .header{
     grid-area: hd;
-    color: blue;
+    background-color: blue;
+}
+
+.lNav{
+    grid-area: nv;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sNav{
+    background-color: orange;
+}
+
+.section{
+    grid-area: sc;
+    background-color: yellow;
+}
+
+
+.footer{
+    grid-area: ft;
+    background-color: green;
 }
