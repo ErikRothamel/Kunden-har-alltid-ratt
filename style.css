@@ -1,0 +1,16 @@
+.main {
+    display: grid;
+    grid-template-areas:
+    'hd' 
+    'nv nv'
+    'md'
+    'ft'
+
+    
+    ;
+}
+
+.header{
+    grid-area: hd;
+    color: blue;
+}
