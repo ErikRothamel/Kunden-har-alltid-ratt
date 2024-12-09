@@ -3,11 +3,13 @@
     grid-template-areas:
     'hd' 
     'nv nv'
+    'he'
     'sc'
     'ft'
 
     
     ;
+
 }
 
 .header{
@@ -20,10 +22,14 @@
     background-color: red;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .sNav{
     background-color: orange;
+    text-align: center;
+    border-radius: 20px;
+    width: 20%;
 }
 
 .section{
@@ -35,4 +41,21 @@
 .footer{
     grid-area: ft;
     background-color: green;
+}
+
+.secondPageHero{
+    grid-area: he; 
+    background-color: red;
+}
+
+.inspoContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: orange;
+    padding: 10px;
+}
+
+.inspoContent{
+    grid-column: auto;
+    background-color: aquamarine;
 }
