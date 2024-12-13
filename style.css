@@ -1,61 +1,84 @@
 .main {
-    display: grid;
-    grid-template-areas:
-    'hd' 
-    'nv nv'
-    'he'
-    'sc'
-    'ft'
-
-    
-    ;
-
+  display: grid;
+  grid-template-areas:
+    "hd"
+    "nv nv"
+    "he"
+    "sc"
+    "ft";
 }
 
-.header{
-    grid-area: hd;
-    background-color: blue;
+.header {
+  grid-area: hd;
+  background-color: blue;
 }
 
-.lNav{
-    grid-area: nv;
-    background-color: red;
-    display: flex;
-    justify-content: space-evenly;
-    
+.lNav {
+  grid-area: nv;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.sNav{
-    background-color: orange;
-    text-align: center;
-    border-radius: 20px;
-    width: 20%;
+.sNav {
+  background-color: orange;
+  text-align: center;
+  border-radius: 20px;
+  width: 20%;
 }
 
-.section{
-    grid-area: sc;
-    background-color: yellow;
+.section {
+  grid-area: sc;
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
-
-.footer{
-    grid-area: ft;
-    background-color: green;
+.footer {
+  display: flex;
+  grid-area: ft;
+  background-color: green;
+  justify-content: space-evenly;
 }
 
-.secondPageHero{
-    grid-area: he; 
-    background-color: red;
+.secondPageHero {
+  grid-area: he;
+  background-color: red;
 }
 
-.inspoContainer{
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: orange;
-    padding: 10px;
+.inspoContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.inspoContent{
-    grid-column: auto;
-    background-color: aquamarine;
+.inspoContent {
+  display: flex;
+  grid-column: auto;
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  gap: 20px;
+}
+
+.ravarorContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ravarorContent {
+  display: flex;
+  grid-column: auto;
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  gap: 20px;
 }
