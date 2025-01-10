@@ -10,9 +10,11 @@
 
 .header {
   grid-area: hd;
-  background-color: blue;
-  
+  background-color: #8B4513;
+  border-radius: 20px;
 }
+
+
 
 .headImg {
   display: block;
@@ -24,42 +26,56 @@
 
 .lNav {
   grid-area: nv;
-  background-color: red;
   display: flex;
   justify-content: space-evenly;
 }
 
 .sNav {
-  background-color: orange;
   text-align: center;
-  width: 20%;
+  width: 30%;
 
 }
 
 .sNavImg{
   height: 100%;
   width: 100%;
+  border-radius: 20px;
 }
 
 .section {
   grid-area: sc;
-  background-color: yellow;
+  background-color: #8B4513;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 20px
+}
+
+.sectionH1{
+  text-align: center;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.sectionP{
+  text-align: center;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .footer {
   display: flex;
   grid-area: ft;
-  background-color: green;
+  background-color: #8B4513;
   justify-content: space-evenly;
 }
 
 .secondPageHero {
   grid-area: he;
   display: flex;
-  background-color: red;
   height: 700px;
   justify-content: center;
 
@@ -70,10 +86,20 @@
   border-radius: 20px;
 }
 
+.intro {
+  background-color: #8B4513;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.introText {
+  font-size: 50px;
+}
+
 .inspoContainer {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: orange;
+  background-color: white;
   padding: 10px;
   border-radius: 20px;
   height: 1120px;
@@ -83,7 +109,7 @@
 .inspoContent {
   display: flex;
   grid-column: auto;
-  background-color: aquamarine;
+  background-color: #8B4513;
   padding: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -99,7 +125,7 @@
 .ravarorContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  background-color: orange;
+  background-color: white;
   padding: 10px;
   border-radius: 20px;
 }
@@ -107,17 +133,32 @@
 .ravarorContent {
   display: flex;
   grid-column: auto;
-  background-color: aquamarine;
+  background-color: #8B4513;
   padding: 20px;
   margin: 10px;
   border-radius: 20px;
   gap: 20px;
 }
 
+.ravarorImg {
+  height: 100%;
+  width: 100%;
+}
+
 p {
   font-size: 30px;
+  color: #f5deb3;
 }
 
 h2 {
   font-size: 30px;
+  color: wheat;
+}
+
+h1 {
+  color: wheat;
+}
+
+#my {
+  zoom: 50%;
 }
